@@ -1,0 +1,265 @@
+/* .main-div {
+    height: 100px;
+    width: 50%;
+    background-color: aquamarine;
+    color: brown;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+
+.sub-div {
+    height: 75px;
+    width: 50%;
+    background-color: blueviolet;
+    color: beige;
+    position: absolute;
+    left: 50px;
+    top: 10px;
+}
+
+.another-div {
+    height: 50px;
+    width: 50px;
+    background-color: chocolate;
+    color: aqua;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+} */
+
+/* div {
+    height: 100px;
+    width: 300px;
+    border: black 2px solid;
+    text-align: center;
+}
+
+.one {
+    background-color: aquamarine;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.two {
+    background-color: blueviolet;
+    color: wheat;
+    font-size: 1.5rem;
+}
+
+.three {
+    background-color: cadetblue;
+    color: azure;
+    font-size: 1.5rem;
+}
+
+.four {
+    background-color: chocolate;
+    color: blanchedalmond;
+    font-size: 1.5rem;
+    position: relative;
+}
+
+.four-a {
+    background-color: darkkhaki;
+    color: black;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+} */
+/* 
+.container {
+    border: 3px red solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 200px;
+    align-content: center;
+    flex-direction: row; 
+}
+
+.item {
+    width: 20%;
+    height: 100px;
+    border: 2px dotted black;
+    text-align: center;
+}
+
+.one {
+    background-color: aquamarine;
+    color: black;
+    flex-grow: 1;
+}
+
+.two {
+    background-color: blueviolet;
+    color: blanchedalmond;
+    flex-shrink: 1;
+}
+
+.three {
+    background-color: brown;
+    color: beige;
+}
+
+.four {
+    background-color: cornflowerblue;
+    color: darkslategray;
+} */
+
+/* .grid-container {
+    border: 2px red dotted;
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: 50px 50px 50px;
+    gap: 10px 5px;
+    height: 400px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.grid-item {
+    border: 1px black solid;
+}
+
+.item1 {
+    background-color: aquamarine;
+    color: brown;
+    font-weight: bold;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item2 {
+    background-color: brown;
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.item3 {
+    background-color: aquamarine;
+    color: brown;
+    font-weight: bold;
+}
+
+.item4 {
+    background-color: brown;
+    color: aquamarine;
+    font-weight: bold;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.item5 {
+    background-color: aquamarine;
+    color: brown;
+    font-weight: bold;
+    grid-area: 2 / 2 / 4 / 4;
+}
+
+.item6 {
+    background-color: brown;
+    color: aquamarine;
+    font-weight: bold;
+}
+
+.item7 {
+    background-color: aquamarine;
+    color: brown;
+    font-weight: bold;
+}
+
+.item8 {
+    background-color: brown;
+    color: aquamarine;
+    font-weight: bold;
+} */
+
+/* 
+.container {
+    display: flex;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: lightcoral;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 3;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: lightgreen;
+    display: none;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    z-index: 1;
+}
+
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+}
+ */
+
+
+/* .box1 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    float: left;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(63, 214, 43);
+    float: left;
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(192, 20, 155);
+    float: left;
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(12, 96, 134);
+    float: left;
+} */
+
+.container {
+    border: 1px solid red;
+}
+
+img {
+    width: 300px;
+}
+
+.img1 {
+    float: left;
+}
+
+.img2 {
+    float: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
